@@ -3,20 +3,9 @@ main:
   - title: "Group Members"
     url: /publications/
 
-  - title: "Talks"
+  - title: "Project Photos"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "Installation Guide"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
