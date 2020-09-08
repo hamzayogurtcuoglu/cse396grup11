@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Group Members"
 permalink: /publications/
 author_profile: true
 ---
