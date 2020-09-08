@@ -1,14 +1,13 @@
 ---
 permalink: /
-title: "Server Installation"
+title: "Ping Pong Ball Tracker and Bouncer"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+The aim of the group project is to construct a ping pong ball bouncer. The overall position on the plate (with respect to x and y coordinates) and an estimate of the height of the ball above the plate should be plotted in real-time both on a host computer and a remote mobile device (an android phone). The mechanism should also be able to move a ping pong ball placed on top of the glass table in a predetermined 2D trajectory.
 
 Client Mobile Installation
 ======
