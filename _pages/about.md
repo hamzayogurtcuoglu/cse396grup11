@@ -34,7 +34,7 @@ This module displays the 2D picture of the ball in real-time according to the co
 [Github Code](https://github.com/oguzhanagkus/ball-bouncer/tree/master/mobile-app).
 <img src="App1.png" width="400" height="400"/>
 <img src="App2.png" width="400" height="400"/>
-<img src="App3.png" width="400" height="400"/>
+<img src="App3.jpg" width="400" height="400"/>
 
 Simulation Module
 ------
