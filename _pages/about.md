@@ -24,6 +24,7 @@ This module consist of design and implementation the mechanical body of the proj
 <br>
 <img src="../_pages/MechanicalDesign1.jpg" width="400" height="400"/>
 <br>
+<br>
 <img src="../_pages/MechanicalDesign2.jpg" width="400" height="400"/>
 
 PID Controller
