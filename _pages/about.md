@@ -48,9 +48,9 @@ This module takes the coordinates of the ball such as X,Y coordinates and height
 
 Installation Guide
 ------
- <pre>   <h3>The Server Computer</h3> 
-              Camera and stm communication cable must be connected to the host computer.
-Camera and stm communication port must be selected over the server application.
+ <pre>   <h2>The Server Computer</h2> 
+              <h3>Camera and stm communication cable must be connected to the host computer.
+Camera and stm communication port must be selected over the server application.</h3>
  </pre>
 About Us
 ------
