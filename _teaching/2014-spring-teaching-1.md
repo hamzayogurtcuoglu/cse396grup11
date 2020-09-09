@@ -7,7 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p>This is a description of a teaching experience. You can use markdown like any other post.</p>
+
+This is a description of a teaching experience. You can use markdown like any other post
 
 
 
