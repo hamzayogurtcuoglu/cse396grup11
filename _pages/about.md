@@ -9,41 +9,27 @@ redirect_from:
 ---
 The aim of the group project is to construct a ping pong ball bouncer. The overall position on the plate (with respect to x and y coordinates) and an estimate of the height of the ball above the plate should be plotted in real-time both on a host computer and a remote mobile device (an android phone). The mechanism should also be able to move a ping pong ball placed on top of the glass table in a predetermined 2D trajectory.
 
-Client Mobile Installation
+Image Processing
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+This module uses OpenCV to process data from the camera. The data is analyzed and the radius, height, velocity, location attributes of the ball is calculated. These outputs are sent to the PID ControllerModule and Simulation Modues.
+[a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Client Desktop Installation (Windows)
+Mechanical Design & Implementation
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+This module consist of design and implementation the mechanical body of the project. The body has a transparent plate and servo-controlled four arms. The servos are controlled by a microcontroller. The microcontroller communicates with the controller device (PID Controller) via a serial port.
 
-Client Desktop Installation (Linux)
+PID Controller
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+This module performs all mathematical and physical calculations. With the Image Processing Module sending the properties of the ball such as the velocity, the coordinate information calculates the movements of the servos in order to balance the ball. The communication with the mechanical body is done via a serial port.
 
-Create content & metadata
+Mobile and Desktop Applications
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+This module displays the 2D picture of the ball in real-time according to the coordinates and radius value received from the server computer. These data are received from the server via wifi. Real-time plotting will be shown both in mobile (Android) and computer (Linux and Windows). All modules are integrated with Qt Server Application. Since Qt supports OpenCV and OpenGL, the simulation module, the image processing code, the PID code, UDP connection, Serial Port connections are successfully integrated to this platform. 
 
-**Markdown generator**
+**Simulation Module**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+This module takes the coordinates of the ball such as X,Y coordinates and height information, servo motor informaion and animates it. OpenGL platform is used for animating in the interface of both server and client applications.
 
-How to edit your site's GitHub repository
+About Us
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+We are Gebze Technical University, Computer Engineering Department third year students. We came together within the scope of the CSE396 Computer Engineering Project course and made this project, consisting of 5 different modules: image processing, mechanical design & implementation, PID controller,mobile and desktop application, simulation.We thank our course instructor Prof. Dr. Erkan ZERGEROĞLU, for providing us for this experience.
