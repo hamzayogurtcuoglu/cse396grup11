@@ -7,7 +7,6 @@ date: 2015-10-01
 venue: ''
 paperurl: ''
 citation: ''
-"!!!WRİTE HERE!!!"
 ---
 
 "!!!WRİTE HERE!!!"
