@@ -3,10 +3,8 @@ title: "Abdulhakim Emre Artış"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: ''
-date:
-venue: ''
+venue: 'WRİTE HERE'
 paperurl: ''
-Work: 'WRİTE HERE'
 ---
 
 
