@@ -11,7 +11,7 @@ location: "City, Country"
 Camera and stm communication cable must be connected to the host computer.
 Camera and stm communication port must be selected over the server application.
 
-Heading 1
+The Server Computer
 ======
 Camera and stm communication cable must be connected to the host computer.
 Camera and stm communication port must be selected over the server application.
