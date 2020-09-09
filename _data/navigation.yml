@@ -2,5 +2,8 @@
 main:
   - title: "Group Members"
     url: /publications/
+    
+  - title: "Talks"
+    url: /talks/   
   
     
