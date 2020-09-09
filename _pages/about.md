@@ -13,8 +13,10 @@ Image Processing
 ======
 This module uses OpenCV to process data from the camera. The data is analyzed and the radius, height, velocity, location attributes of the ball is calculated. These outputs are sent to the PID ControllerModule and Simulation Modues.
 [Github Code](https://github.com/oguzhanagkus/ball-bouncer/blob/master/test-codes/image-processing/color_tracking.cpp).
+<p float="left">
 <img src="../_pages/ImageProcessing1.png" width="400" height="400"/>
 <img src="../_pages/ImageProcessing2.png" width="400" height="400"/>
+</p>
 
 Mechanical Design & Implementation
 ======
@@ -32,11 +34,9 @@ Mobile and Desktop Applications
 ------
 This module displays the 2D picture of the ball in real-time according to the coordinates and radius value received from the server computer. These data are received from the server via wifi. Real-time plotting will be shown both in mobile (Android) and computer (Linux and Windows). All modules are integrated with Qt Server Application. Since Qt supports OpenCV and OpenGL, the simulation module, the image processing code, the PID code, UDP connection, Serial Port connections are successfully integrated to this platform. 
 [Github Code](https://github.com/oguzhanagkus/ball-bouncer/tree/master/mobile-app).
-<tr>
 <td> <img src="../_pages/App1.png" width="400" height="400"/></td>
 <td> <img src="../_pages/App2.png" width="400" height="400"/></td>
 <td> <img src="../_pages/App3.jpg" width="400" height="400"/></td>
-</tr>
 
 Simulation Module
 ------
