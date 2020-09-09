@@ -3,7 +3,6 @@ permalink: /
 title: "Ping Pong Ball Tracker and Bouncer"
 excerpt: "About me"
 author_profile: true
-date: 2020-09-11
 redirect_from: 
   - /about/
   - /about.html
