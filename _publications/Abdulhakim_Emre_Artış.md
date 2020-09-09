@@ -6,7 +6,7 @@ excerpt: ''
 date: 2015-10-01
 venue: ''
 paperurl: ''
-Work: '!!!WRİTE HERE!!!'
+Work: 'WRİTE HERE'
 ---
 
 
