@@ -34,10 +34,13 @@ This module displays the 2D picture of the ball in real-time according to the co
 [Github Code](https://github.com/oguzhanagkus/ball-bouncer/tree/master/mobile-app).
 <img src="App1.png" width="400" height="400"/>
 <img src="App2.png" width="400" height="400"/>
+<img src="App3.png" width="400" height="400"/>
 
 Simulation Module
 ------
 This module takes the coordinates of the ball such as X,Y coordinates and height information, servo motor informaion and animates it. OpenGL platform is used for animating in the interface of both server and client applications.
+<br>
+<img src="Simulation1.png" width="400" height="400"/>
 
 About Us
 ------
