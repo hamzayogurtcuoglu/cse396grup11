@@ -12,7 +12,7 @@ The aim of the group project is to construct a ping pong ball bouncer. The overa
 Image Processing
 ======
 This module uses OpenCV to process data from the camera. The data is analyzed and the radius, height, velocity, location attributes of the ball is calculated. These outputs are sent to the PID ControllerModule and Simulation Modues.
-[a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+[Github Code](https://github.com/oguzhanagkus/ball-bouncer/blob/master/test-codes/image-processing/color_tracking.cpp).
 
 Mechanical Design & Implementation
 ======
@@ -21,13 +21,15 @@ This module consist of design and implementation the mechanical body of the proj
 PID Controller
 ------
 This module performs all mathematical and physical calculations. With the Image Processing Module sending the properties of the ball such as the velocity, the coordinate information calculates the movements of the servos in order to balance the ball. The communication with the mechanical body is done via a serial port.
+[Github Code](https://github.com/oguzhanagkus/ball-bouncer/tree/master/test-codes/loadBalacer-server/loadBalacer-serverV4).
 
 Mobile and Desktop Applications
 ------
 This module displays the 2D picture of the ball in real-time according to the coordinates and radius value received from the server computer. These data are received from the server via wifi. Real-time plotting will be shown both in mobile (Android) and computer (Linux and Windows). All modules are integrated with Qt Server Application. Since Qt supports OpenCV and OpenGL, the simulation module, the image processing code, the PID code, UDP connection, Serial Port connections are successfully integrated to this platform. 
+[Github Code](https://github.com/oguzhanagkus/ball-bouncer/tree/master/mobile-app).
 
-**Simulation Module**
-
+Simulation Module
+------
 This module takes the coordinates of the ball such as X,Y coordinates and height information, servo motor informaion and animates it. OpenGL platform is used for animating in the interface of both server and client applications.
 
 About Us
