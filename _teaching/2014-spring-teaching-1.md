@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Ping Pong Ball Tracker and Bouncer"
-excerpt: "About me"
+title: ""
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
