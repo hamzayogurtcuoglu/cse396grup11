@@ -36,7 +36,7 @@ This module displays the 2D picture of the ball in real-time according to the co
   <img src="../_pages/App1.png" width="400" height="400"/>
   <img src="../_pages/App2.png" width="400" height="400"/>
   <img src="../_pages/App3.jpg" width="400" height="400"/>
-<\p>
+</p>
 
 Simulation Module
 ------
