@@ -47,12 +47,6 @@ This module takes the coordinates of the ball such as X,Y coordinates and height
 <br>
 <img src="../_pages/Simulation1.png" width="400" height="400"/>
 
-Installation Guide
-------
- <pre>   <h2>The Server Computer</h2> 
-              <h3>Camera and stm communication cable must be connected to the host computer.
-Camera and stm communication port must be selected over the server application.</h3>
- </pre>
 About Us
 ------
 We are Gebze Technical University, Computer Engineering Department third year students. We came together within the scope of the CSE396 Computer Engineering Project course and made this project, consisting of 5 different modules: image processing, mechanical design & implementation, PID controller,mobile and desktop application, simulation.We thank our course instructor Prof. Dr. Erkan ZERGEROĞLU, for providing us for this experience.
