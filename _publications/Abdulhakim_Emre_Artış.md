@@ -1,5 +1,12 @@
 ---
-#Abdulhakim Emre Artış
+title: "Abdulhakim Emre Artış"
 collection: publications
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+permalink: /publication/2015-10-01-paper-title-number-3
+excerpt: ''
+date: 2015-10-01
+venue: ''
+paperurl: ''
+citation: ''
+---
 
+!!!WRİTE HERE!!!
