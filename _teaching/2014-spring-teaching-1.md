@@ -8,7 +8,8 @@ date: 2014-01-01
 location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Camera and stm communication cable must be connected to the host computer.
+Camera and stm communication port must be selected over the server application.
 
 Heading 1
 ======
