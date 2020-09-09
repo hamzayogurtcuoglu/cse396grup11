@@ -14,16 +14,16 @@ Image Processing
 This module uses OpenCV to process data from the camera. The data is analyzed and the radius, height, velocity, location attributes of the ball is calculated. These outputs are sent to the PID ControllerModule and Simulation Modues.
 [Github Code](https://github.com/oguzhanagkus/ball-bouncer/blob/master/test-codes/image-processing/color_tracking.cpp).
 <p float="left">
-<img src="../_pages/ImageProcessing1.png" width="400" height="400"/>
-<img src="../_pages/ImageProcessing2.png" width="400" height="400"/>
+<img src="../_pages/ImageProcessing1.png" width="300" height="300"/>
+<img src="../_pages/ImageProcessing2.png" width="300" height="300"/>
 </p>
 
 Mechanical Design & Implementation
 ======
 This module consist of design and implementation the mechanical body of the project. The body has a transparent plate and servo-controlled four arms. The servos are controlled by a microcontroller. The microcontroller communicates with the controller device (PID Controller) via a serial port.
 <p float="left">
-<img src="../_pages/MechanicalDesign1.jpg" width="200" height="200"/>
-<img src="../_pages/MechanicalDesign2.jpg" width="200" height="200"/>
+<img src="../_pages/MechanicalDesign1.jpg" width="300" height="300"/>
+<img src="../_pages/MechanicalDesign2.jpg" width="300" height="300"/>
 </p>
 
 PID Controller
