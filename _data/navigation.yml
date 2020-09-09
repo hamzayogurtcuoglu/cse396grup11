@@ -3,9 +3,6 @@ main:
   - title: "Group Members"
     url: /publications/
 
-  - title: "Project Photos"
-    url: /talks/    
-
   - title: "Installation Guide"
     url: /teaching/    
     
