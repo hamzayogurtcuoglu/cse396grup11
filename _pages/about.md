@@ -32,11 +32,11 @@ Mobile and Desktop Applications
 ------
 This module displays the 2D picture of the ball in real-time according to the coordinates and radius value received from the server computer. These data are received from the server via wifi. Real-time plotting will be shown both in mobile (Android) and computer (Linux and Windows). All modules are integrated with Qt Server Application. Since Qt supports OpenCV and OpenGL, the simulation module, the image processing code, the PID code, UDP connection, Serial Port connections are successfully integrated to this platform. 
 [Github Code](https://github.com/oguzhanagkus/ball-bouncer/tree/master/mobile-app).
-<p float="left">
-  <img src="../_pages/App1.png" width="400" height="400"/>
-  <img src="../_pages/App2.png" width="400" height="400"/>
-  <img src="../_pages/App3.jpg" width="400" height="400"/>
-</p>
+<tr>
+<td> <img src="../_pages/App1.png" width="400" height="400"/></td>
+<td> <img src="../_pages/App2.png" width="400" height="400"/></td>
+<td> <img src="../_pages/App3.jpg" width="400" height="400"/></td>
+</tr>
 
 Simulation Module
 ------
