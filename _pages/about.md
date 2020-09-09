@@ -40,6 +40,7 @@ This module displays the 2D picture of the ball in real-time according to the co
 <img src="../_pages/App2.png" width="300" height="300"/>
 <img src="../_pages/App3.jpg" width="300" height="300"/>
 </p>
+
 Simulation Module
 ------
 This module takes the coordinates of the ball such as X,Y coordinates and height information, servo motor informaion and animates it. OpenGL platform is used for animating in the interface of both server and client applications.
