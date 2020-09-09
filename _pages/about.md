@@ -21,11 +21,10 @@ This module uses OpenCV to process data from the camera. The data is analyzed an
 Mechanical Design & Implementation
 ======
 This module consist of design and implementation the mechanical body of the project. The body has a transparent plate and servo-controlled four arms. The servos are controlled by a microcontroller. The microcontroller communicates with the controller device (PID Controller) via a serial port.
-<br>
-<img src="../_pages/MechanicalDesign1.jpg" width="400" height="400"/>
-<br>
-<br>
-<img src="../_pages/MechanicalDesign2.jpg" width="400" height="400"/>
+<p float="left">
+<img src="../_pages/MechanicalDesign1.jpg" width="200" height="200"/>
+<img src="../_pages/MechanicalDesign2.jpg" width="200" height="200"/>
+</p>
 
 PID Controller
 ------
