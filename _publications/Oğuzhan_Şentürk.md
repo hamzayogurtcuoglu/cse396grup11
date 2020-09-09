@@ -5,7 +5,7 @@ permalink: /publication/2015-10-01-paper-title-number-3
 excerpt:
 date:
 venue:
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl:
 citation:
 ---
 
