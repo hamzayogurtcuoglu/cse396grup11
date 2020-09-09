@@ -8,5 +8,3 @@ venue: ''
 paperurl: ''
 citation: '!!!WRİTE HERE!!!'
 ---
-
-!!!WRİTE HERE!!!
