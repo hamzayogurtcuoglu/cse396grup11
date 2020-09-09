@@ -20,7 +20,7 @@ Mechanical Design & Implementation
 ======
 This module consist of design and implementation the mechanical body of the project. The body has a transparent plate and servo-controlled four arms. The servos are controlled by a microcontroller. The microcontroller communicates with the controller device (PID Controller) via a serial port.
 <br>
-![An image](MechanicalDesign1.jpg height="400" width="400)
+![An image](MechanicalDesign1.jpg | 512x397)
 <img src="MechanicalDesign1.jpg" width="400" height="400"/>
 <img src="MechanicalDesign2.jpg" width="400" height="400"/>
 
