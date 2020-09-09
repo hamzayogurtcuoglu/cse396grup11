@@ -19,6 +19,8 @@ This module uses OpenCV to process data from the camera. The data is analyzed an
 Mechanical Design & Implementation
 ======
 This module consist of design and implementation the mechanical body of the project. The body has a transparent plate and servo-controlled four arms. The servos are controlled by a microcontroller. The microcontroller communicates with the controller device (PID Controller) via a serial port.
+<img src="MechanicalDesign1.png" width="400" height="400"/>
+<img src="MechanicalDesign2.png" width="400" height="400"/>
 
 PID Controller
 ------
@@ -29,6 +31,8 @@ Mobile and Desktop Applications
 ------
 This module displays the 2D picture of the ball in real-time according to the coordinates and radius value received from the server computer. These data are received from the server via wifi. Real-time plotting will be shown both in mobile (Android) and computer (Linux and Windows). All modules are integrated with Qt Server Application. Since Qt supports OpenCV and OpenGL, the simulation module, the image processing code, the PID code, UDP connection, Serial Port connections are successfully integrated to this platform. 
 [Github Code](https://github.com/oguzhanagkus/ball-bouncer/tree/master/mobile-app).
+<img src="App1.png" width="400" height="400"/>
+<img src="App2.png" width="400" height="400"/>
 
 Simulation Module
 ------
