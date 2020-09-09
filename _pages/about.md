@@ -17,7 +17,7 @@ This module uses OpenCV to process data from the camera. The data is analyzed an
 
 Image Processing
 ======
-This module uses OpenCV to process data from the camera. The data is analyzed and the radius, height, velocity, location attributes of the ball is calculated. These outputs are sent to the PID ControllerModule and Simulation Modues.
+This module usessss OpenCV to process data from the camera. The data is analyzed and the radius, height, velocity, location attributes of the ball is calculated. These outputs are sent to the PID ControllerModule and Simulation Modues.
 [Github Code](https://github.com/oguzhanagkus/ball-bouncer/blob/master/test-codes/image-processing/color_tracking.cpp).
 <p float="left">
 <img src="../_pages/ImageProcessing1.png" width="300px" height="300px"/>
