@@ -11,7 +11,7 @@ The aim of the group project is to construct a ping pong ball bouncer. The overa
 
 
 Installation Guide
-======
+------
 This module uses OpenCV to process data from the camera. The data is analyzed and the radius, height, velocity, location attributes of the ball is calculated. These outputs are sent to the PID ControllerModule and Simulation Modues.
 
 
