@@ -8,7 +8,7 @@ The main modules that I have worked in are Desktop Applications (Server and Clie
 •	Simulating the robot in OpenGL and integration of the model to Qt.
 •	Developed Network communication via UDP in Qt between the Server and the Client. 
 •	Integrated the OpenCV image processing code to Qt.
-•	Developed and designed the Server and Client UI and developed its system programming (thread and signal handling).'
+•	Worked on developing and designing the Server and Client UI and developed its system programming (thread and signal handling).'
 date: 2020-09-09
 venue: ''
 ---
